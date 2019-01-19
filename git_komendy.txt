@@ -33,4 +33,12 @@ b) git commit -m "krotki opis" -  tworzy comiita z opisem w ""
 c) git commit -a - tworzy comita z pominiec oczekiwania 
 
 6. Branche 
-a) git branch - sprawdzenie jakie są branche 
+
+a) git branch -  sprawdzenie jakie są branche 
+
+
+7. Modyfikowanie stanu plików repozytorium
+
+a) git add plik -  zaindekoswanie pliku 
+b) git commit - plik akutalny, operacja zatwierdzenia 
+c) git mv stara_nazwa nowa_nazwa -  zmiana nazwy pliku  
