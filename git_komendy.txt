@@ -1,4 +1,4 @@
-1. Ustawienie autora
+﻿1. Ustawienie autora
 
 a) git config user.name "Jan Kowalski" -  ustawia imie tylko w danym repozytorium
 b) git config --global user.name "Jan Kowalski" -  ustawia imie dla wszystkich repozytoriów
@@ -42,3 +42,5 @@ a) git branch -  sprawdzenie jakie są branche
 a) git add plik -  zaindekoswanie pliku 
 b) git commit - plik akutalny, operacja zatwierdzenia 
 c) git mv stara_nazwa nowa_nazwa -  zmiana nazwy pliku  
+
+8. Świetna robota!!
