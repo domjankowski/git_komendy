@@ -22,6 +22,7 @@ c) git log -3 -  wypisanie 3 ostatnich commitów wraz ze szczegółami
 
 a) git reset --hard -  przywrócenie stanu do ostatniego zapisanego coomita, używać w momencie jak na pliku zostały modyfikacje a nie został zrobiony commit
 b) git reset hash - przywraca stan do danego commita, i usuwa nieodwracalnie wszystkie powyższe stany 
+c) git checkout hash - przywrocenie stanu plikow do danego komita, odlaczenie chwilowe z głównego brancha, nowsze commity zostaja 
 
 
 5. Tworzenie commitów
@@ -30,3 +31,6 @@ a1) git add . -  dodaje wszystkie zmiany do oczekiwania na commit
 a2) git commit - tworzy commita ze zmianami ktore oczekiwały (opis w edydorze)
 b) git commit -m "krotki opis" -  tworzy comiita z opisem w ""
 c) git commit -a - tworzy comita z pominiec oczekiwania 
+
+6. Branche 
+a) git branch - sprawdzenie jakie są branche 
