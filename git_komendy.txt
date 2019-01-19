@@ -1,7 +1,17 @@
 1. Ustawienie autora
+
 a) git config user.name "Jan Kowalski" -  ustawia imie tylko w danym repozytorium
 b) git config --global user.name "Jan Kowalski" -  ustawia imie dla wszystkich repozytoriów
 c) git config suer.email nazwa@gmail.com -  ustawia email, adekwatnie do powyższych
+
+
 2. Tworzenie repozytorium 
+
 a) git init -  tworzy nowe repozytorium lokalnie w danym folderze
 b) git clone link -  tworzenie repozytorium poprzez skopiowanie istniejących
+
+
+3. Historia projektru
+a) git log -  wypisanie wszystkich coomitów wraz ze szczegółami
+b) git log --oneline -  wypisanie wszystkich commitów (tylko hash i krótki opis)
+c) git log -3 -  wypisanie 3 ostatnich commitów wraz ze szczegółami
