@@ -12,6 +12,13 @@ b) git clone link -  tworzenie repozytorium poprzez skopiowanie istniejących
 
 
 3. Historia projektru
+
 a) git log -  wypisanie wszystkich coomitów wraz ze szczegółami
 b) git log --oneline -  wypisanie wszystkich commitów (tylko hash i krótki opis)
 c) git log -3 -  wypisanie 3 ostatnich commitów wraz ze szczegółami
+
+
+4. Przywracanie
+
+a) git reset --hard -  przywrócenie stanu do ostatniego zapisanego coomita, używać w momencie jak na pliku zostały modyfikacje a nie został zrobiony commit
+b) git reset hash - przywraca stan do danego commita, i usuwa nieodwracalnie wszystkie powyższe stany 
