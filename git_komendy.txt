@@ -1,0 +1,4 @@
+1. Ustawienie autora
+a) git config user.name "Jan Kowalski" -  ustawia imie tylko w danym repozytorium
+b) git config --global user.name "Jan Kowalski" -  ustawia imie dla wszystkich repozytoriów
+c) git config suer.email nazwa@gmail.com -  ustawia email, adekwatnie do powyższych
